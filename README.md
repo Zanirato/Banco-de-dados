@@ -11,7 +11,7 @@
 
 * _INSERT_ - Inserir  os dados na tabela
 
-* _UPDATE_ - Ataliza registros
+* _UPDATE_ - Atualiza registros
 
 * _DELETE_ - Remover registro
 
