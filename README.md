@@ -1,18 +1,19 @@
-# Banco-de-dados
- 
-## Comandos básicos de SQL
 
+# Passo a passo: Criação de um banco de dados
 
-* _CREATE_ - Para criar banco de dados
+Tutorial de como criar um banco de dados SQL que organiza as informações de 'livros', 'editora', 'autores' e 'assuntos'. Este guia será dividido em etapas para demonstrar desde a criação de tabelas, chaves e até manipulação/consulta de dados.
 
-* _ALTER_ - Modificar e alterar colunas
+## Resumo de uma estrutura SQL
+* __CREATE__ - Para criar banco de dados
 
-* _DROP_ - Para remover tabelas e banco
+* __ALTER__ - Modificar e alterar colunas
 
-* _INSERT_ - Inserir  os dados na tabela
+* __DROP__ - Para remover tabelas e banco
 
-* _UPDATE_ - Ataliza registros
+* __INSERT__ - Inserir  os dados na tabela
 
-* _DELETE_ - Remover registro
+* __UPDATE__ - Atualiza registros
 
-* _SELECT_ - Para Consultar e Visualizar dados
+* __DELETE__ - Remover registro
+
+* __SELECT__ - Para Consultar e visualizar dados
