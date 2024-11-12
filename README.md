@@ -67,11 +67,16 @@ CREATE TABLE livro(
 A tabela EXTRA vai servir para exemplificar a exclusão
 
 ```SQL
-CREATE TABLE extra(
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    produtos VARCHAR(50),
-    quantidade INT(20),
-    preco DOUBLE NOT NULL
+CREATE TABLE livro (
+    id_livro INT PRIMARY KEY AUTO_INCREMENT,
+    titulo VARCHAR(150) NOT NULL,
+    ano_publicacao INT(4),
+    editora INT,
+    autor INT,
+    assunto INT,
+    FOREIGN KEY (editora) REFERENCES editora(id_editora),
+    FOREIGN KEY (autor) REFERENCES autor(id_autor),
+    FOREIGN KEY (assunto) REFERENCES assunto(id_assunto)
 );
 ```
 
